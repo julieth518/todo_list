@@ -4,8 +4,8 @@ Aplicación web colaborativa para gestionar tareas en equipo con autenticación 
 
 ## 🚀 Demo en Vivo
 
-- **Frontend**: https://tdolistreact.netlify.app
-- **Backend API**: https://teamto-do-1.onrender.com
+- **Frontend**: https://todolistproyec.netlify.app/
+- **Backend API**: https://todo-list-bgv1.onrender.com
 
 ## ✨ Características Principales
 
@@ -207,4 +207,4 @@ Si quieres, puedo aplicar los fixes automáticos para estos dos puntos.
 
 ## 👤 Autor
 
-Jose Leon - [GitHub](https://github.com/Leonidas670)
+angie coronado - https://github.com/julieth518/todo_list.git
