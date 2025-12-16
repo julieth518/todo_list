@@ -204,7 +204,7 @@ Verifica que el backend esté corriendo y que las variables de entorno estén co
     - `frontend/src/pages/Home.jsx`: puede aparecer una variable `logout` declarada pero no usada — eliminar o usarla según corresponda.
 Si quieres, puedo aplicar los fixes automáticos para estos dos puntos.
 
-## Licencia
+## 📋 Licencia
 
 Este proyecto está licenciado bajo la Licencia MIT - ver el archivo [LICENSE](LICENSE) para más detalles.
 
