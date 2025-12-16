@@ -1,31 +1,46 @@
 # 📋 Team To-Do
 
-Aplicación web colaborativa para gestionar tareas en equipo con autenticación de usuarios y filtrado en tiempo real.
+## Actividad Final Integradora
+**Actividad Final Integradora**: “Todo List Fullstack con Despliegue en la Nube y CI/CD”
+
+## Descripción General para los Aprendices
+Desarrollarás y desplegarás una aplicación Todo List fullstack que permita gestionar tareas (crear, listar, actualizar y eliminar) utilizando el siguiente stack tecnológico:
+
+**Frontend**: React  
+**Backend**: NestJS (o Express, FastAPI si prefieres otra opción)  
+**Base de datos**: MySQL (o MongoDB)
+
+### Despliegues:
+- **Frontend en Netlify**
+- **Backend en Render**
+- **Base de datos en Railway**
+
+### DevOps:
+Configura **GitHub Actions** para ejecutar build y pruebas automáticas en cada push o Pull Request.
+
+El objetivo es simular un escenario real de desarrollo profesional: diseño, implementación, pruebas, despliegue y documentación de un servicio web completo.
 
 ## 🚀 Demo en Vivo
-
-- **Frontend**: https://todolistproyec.netlify.app/
-- **Backend API**: https://todo-list-bgv1.onrender.com
+- **Frontend**: [Ver Demo](https://todolistproyec.netlify.app/)
+- **Backend API**: [API en Vivo](https://todo-list-bgv1.onrender.com)
 
 ## ✨ Características Principales
+✅ **Gestión de Tareas**: Crear, editar, marcar como completadas y eliminar tareas  
+👥 **Multiusuario**: Sistema completo de registro e inicio de sesión  
+🔍 **Búsqueda Inteligente**: Busca tareas por texto o autor con debounce  
+🎯 **Filtros**: Visualiza todas, pendientes o completadas  
+🔒 **Seguridad**: Validación de contraseñas (mínimo 8 caracteres, mayúsculas, minúsculas y caracteres especiales)  
+🎨 **Diseño Moderno**: Interfaz colorida y responsive con gradientes cálidos  
+📱 **Responsive**: Funciona perfectamente en desktop, tablet y móvil
 
-- ✅ **Gestión de Tareas**: Crear, editar, marcar como completadas y eliminar tareas
-- 👥 **Multiusuario**: Sistema completo de registro e inicio de sesión
-- 🔍 **Búsqueda Inteligente**: Busca tareas por texto o autor con debounce
-- 🎯 **Filtros**: Visualiza todas, pendientes o completadas
-- 🔒 **Seguridad**: Validación de contraseñas (min 8 caracteres, mayúsculas, minúsculas y caracteres especiales)
-- 🎨 **Diseño Moderno**: Interfaz colorida y responsive con gradientes cálidos
-- 📱 **Responsive**: Funciona perfectamente en desktop, tablet y móvil
+### 🎨 Cambios recientes de estilo (tema)
+Se actualizó la paleta visual del frontend: la aplicación ahora usa una combinación principal de tonos rosados (rose) con acentos púrpura (purple) en lugar de los tonos ámbar anteriores. También se aplicó un fondo morado claro y texto en negro para mayor contraste.  
+Archivos relevantes donde se aplicó el cambio:
+- `frontend/tailwind.config.cjs` (paleta: rose y purple)
+- `frontend/src/index.css` (estilos globales)
+- Componentes: `src/pages/*`, `src/components/*` (reemplazo de clases amber-* → purple-* y ajustes de gradientes)  
 
-## 🎨 Cambios recientes de estilo (tema)
-
-- Se actualizó la paleta visual del frontend: la aplicación ahora usa una combinación principal de tonos rosados (`rose`) con acentos púrpura (`purple`) en lugar de los tonos ámbar anteriores. También se aplicó un fondo morado claro y texto en negro para mayor contraste.
-- Archivos relevantes donde se aplicó el cambio:
-    - `frontend/tailwind.config.cjs` (paleta: `rose` y `purple`)
-    - `frontend/src/index.css` (estilos globales)
-    - Componentes: `src/pages/*`, `src/components/*` (reemplazo de clases `amber-*` → `purple-*` y ajustes de gradientes)
-
-Nota rápida: si ves referencias antiguas a `amber` en `frontend/dist/`, regenera el build (ver sección "Instalación Local" abajo).
+> Nota rápida: si ves referencias antiguas a amber en `frontend/dist/`, regenera el build (ver sección "Instalación Local" abajo).
 
 ## 🛠️ Tecnologías
 
@@ -45,9 +60,9 @@ Nota rápida: si ves referencias antiguas a `amber` en `frontend/dist/`, regener
 - bcrypt para encriptación
 
 ### Despliegue
-- Frontend: Netlify
-- Backend: Render
-- Base de Datos: Railway (MySQL)
+- **Frontend**: Netlify
+- **Backend**: Render
+- **Base de Datos**: Railway (MySQL)
 
 ## 📦 Instalación Local
 
@@ -56,11 +71,11 @@ Nota rápida: si ves referencias antiguas a `amber` en `frontend/dist/`, regener
 - npm o yarn
 - MySQL
 
-### 1. Clonar el Repositorio
-```bash
-git clone https://github.com/tu-usuario/team-todo.git
-cd team-todo
-```
+1. **Clonar el Repositorio**
+   ```bash
+   git clone https://github.com/tu-usuario/team-todo.git
+   cd team-todo
+
 
 ### 2. Configurar Frontend
 ```bash
