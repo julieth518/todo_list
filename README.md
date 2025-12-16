@@ -21,8 +21,8 @@ Configura **GitHub Actions** para ejecutar build y pruebas automáticas en cada 
 El objetivo es simular un escenario real de desarrollo profesional: diseño, implementación, pruebas, despliegue y documentación de un servicio web completo.
 
 ## 🚀 Demo en Vivo
-- **Frontend**: [Ver Demo](https://todolistproyec.netlify.app/)
-- **Backend API**: [API en Vivo](https://todo-list-bgv1.onrender.com)
+- **Frontend**: [Ver Demo] (https://todolistproyec.netlify.app)
+- **Backend API**: [API en Vivo] (https://todo-list-bgv1.onrender.com)
 
 ## ✨ Características Principales
 ✅ **Gestión de Tareas**: Crear, editar, marcar como completadas y eliminar tareas  
