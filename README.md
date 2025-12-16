@@ -204,6 +204,26 @@ Verifica que el backend esté corriendo y que las variables de entorno estén co
     - `frontend/src/pages/Home.jsx`: puede aparecer una variable `logout` declarada pero no usada — eliminar o usarla según corresponda.
 Si quieres, puedo aplicar los fixes automáticos para estos dos puntos.
 
+## Licencia
+
+Este proyecto está licenciado bajo la Licencia MIT - ver el archivo [LICENSE](LICENSE) para más detalles.
+
+### Copyright (c) 2025 Angie Coronado
+
+Se otorgan los permisos siguientes:
+
+1. **Uso:** Se puede usar este software de cualquier forma, incluidos, entre otros, los fines comerciales, sin restricciones.
+2. **Copiar y distribuir:** Se puede copiar, modificar, fusionar, publicar, distribuir, sublicenciar y vender copias del software.
+3. **Modificar:** Se pueden realizar modificaciones al software, siempre y cuando se incluyan las modificaciones en una distribución del software.
+4. **Distribuir copias modificadas:** Se pueden distribuir versiones modificadas del software bajo los mismos términos de la Licencia MIT.
+
+**Limitaciones:**
+
+- No se otorgan garantías de ningún tipo, expresas o implícitas, sobre la adecuación para un propósito particular o la seguridad del software.
+- El autor o los titulares de derechos de autor no serán responsables de ningún daño o perjuicio que surja del uso del software.
+
+Este proyecto utiliza otros componentes y bibliotecas que pueden estar bajo diferentes licencias. Asegúrate de consultar las licencias correspondientes de cada uno de ellos.
+
 
 ## 👤 Autor
 
